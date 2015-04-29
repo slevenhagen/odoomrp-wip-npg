@@ -9,3 +9,6 @@ OdooMRP WIP
 Work in progress of modules made under the umbrella of OdooMRP project.
 
 Utility modules available in https://github.com/odoomrp/odoomrp-utils
+
+
+Add new Repo for work https://github.com/slevenhagen/odoomrp-wip-npg
