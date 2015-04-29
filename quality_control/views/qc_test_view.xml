@@ -18,6 +18,8 @@
                                 <field name="object_id"
                                        attrs="{'invisible': [('type','=','generic')]}"/>
                                 <field name="active" />
+                                <field name="test" />
+                                <field name="user" />
                             </group>
                             <group>
                                 <field name="category" />

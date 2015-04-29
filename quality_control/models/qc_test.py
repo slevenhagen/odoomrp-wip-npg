@@ -36,6 +36,11 @@ class QcTest(models.Model):
         comodel_name='res.company', string='Company',
         default=lambda self: self.env['res.company']._company_default_get(
             'qc.test'))
+    test = fields.Many2one(
+        comodel_name='qc.test', string='Test', readonly=True, select=True)
+    user = fields.Many2one(
+        comodel_name='res.users', string='Responsible',
+        track_visibility='always', default=lambda self: self.env.user)
 
 
 class QcTestQuestion(models.Model):
